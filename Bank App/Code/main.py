@@ -73,6 +73,7 @@ class Intro(QWidget, Ui_Form):
                                 self.statusmess_2.setText('Sign Up Successful')
                                 sleep(2)
                                 m = 1
+                                koy = 109
                                 self.menustack.setCurrentIndex(0)
 
     def login(self):
