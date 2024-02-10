@@ -74,6 +74,7 @@ class Intro(QWidget, Ui_Form):
                                 sleep(2)
                                 m = 1
                                 koy = 109
+                                print(koy)
                                 self.menustack.setCurrentIndex(0)
 
     def login(self):
